@@ -1,0 +1,11 @@
+name = "Roc"
+grammar = "roc"
+path_suffixes = ["roc"]
+line_comments = ["# ", "## "]
+autoclose_before = ",=)}]"
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+]
+tab_size = 2

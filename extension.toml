@@ -1,0 +1,15 @@
+id = "roc-lang"
+name = "Roc"
+version = "0.0.1"
+schema_version = 1
+authors = ["Eli Dowling <eli.jambu@gmail.com>"]
+description = "Support for the Roc programming language"
+repository = "https://github.com/faldor20/zed-roc"
+
+[grammars.roc]
+repository="https://github.com/faldor20/tree-sitter-roc"
+commit="15ceb1a4357462b7b60e6775363ff4f1e1f13353"
+
+[language_servers.roc]
+language= "Roc"
+name = "roc_ls"
